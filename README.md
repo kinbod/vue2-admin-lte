@@ -46,6 +46,13 @@ npm run build --report
 # run all tests: comping soon
 # npm test
 ```
+#1.安装cnpm（https://npm.taobao.org/）
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+#2.在项目文件夹下安装node-sass
+cnpm install --save-dev node-sass
+说明：--save-dev自动将node-sass加入到项目文件夹下的package.json中。
+
 
 ## How to use
 
